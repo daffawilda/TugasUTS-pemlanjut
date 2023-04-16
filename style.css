@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  width: 100%;
+  background-color: whitesmoke;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+/* Style untuk header */
+.wrapper {
+  padding: 0 10px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #009ff0;
+}
+
+h1 a {
+  padding: 4px 10px;
+  font-size: 28px;
+  color: white;
+  border: 1px solid;
+}
+
+h1 a:hover {
+  box-shadow: 4px 4px black;
+  transition: all 0.2s ease;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Style a di tampilan pc */
+ul li a {
+  margin: 3px;
+  padding: 10px 20px;
+  font-size: 11px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}
+
+ul li a:hover {
+  background-color: #e2edff ;
+  transition: all 0.5s ease-out;
+
+}
+h1{
+  text-align: center;
+}
+img{
+  width: 300px;
+  height: 200px;
+}
